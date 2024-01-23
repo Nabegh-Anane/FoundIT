@@ -46,7 +46,7 @@ Explore the source code, contribute to improvements, and stay updated with the l
 
 ## Getting Started
 
-To get started with Pet/Asset Tracker Pro, follow these steps:
+To get started with FoundIT, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/Nabegh-Anane/FoundIT.git`
 2. Install dependencies as specified in the documentation.
