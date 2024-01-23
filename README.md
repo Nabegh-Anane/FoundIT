@@ -6,10 +6,13 @@ FoundIT is a sophisticated Android application that addresses the challenge of k
 
 
 <p align="center">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fit.png?raw=true" alt="Logo" width="150" height="120">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/isima.png?raw=true" alt="Logo" width="150" height="120">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fseg.png?raw=true" alt="Logo" width="150" height="120">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/injaz.png?raw=true" alt="Logo" width="150" height="120">
+   <a href="https://nabeghanane.me/#projects"><img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fit.png?raw=true" alt="Logo" width="150" height="150"></a>
+</p>
+
+<p align="center">
+  <a href="https://isima.rnu.tn/fra/home"><img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/isima.png?raw=true" alt="Logo" width="150" height="120"></a>
+  <a href="https://fsegma.rnu.tn/"><img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fseg.png?raw=true" alt="Logo" width="150" height="120"></a>
+  <a href="https://www.injazalarab.org/"><img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/injaz.png?raw=true" alt="Logo" width="150" height="120"></a>
 </p>
 
 ## Screenshots
