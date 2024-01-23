@@ -6,10 +6,10 @@ FoundIT is a sophisticated Android application that addresses the challenge of k
 
 
 <p align="center">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fit.png?raw=true" alt="Logo" width="100" height="100">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/isima.png?raw=true" alt="Logo" width="100" height="100">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fseg.png?raw=true" alt="Logo" width="120" height="120">
-  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/injaz.png?raw=true" alt="Logo" width="100" height="100">
+  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fit.png?raw=true" alt="Logo" width="150" height="100">
+  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/isima.png?raw=true" alt="Logo" width="150" height="100">
+  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/fseg.png?raw=true" alt="Logo" width="150" height="120">
+  <img src="https://github.com/Nabegh-Anane/FoundIT/blob/main/app/ScreenShots/injaz.png?raw=true" alt="Logo" width="150" height="100">
 </p>
 
 ## Screenshots
