@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11243a"
+    tools:context=".Settings">
+
+
+    <ImageView
+        android:id="@+id/foundit"
+        android:layout_width="34dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/foundit" />
+
+    <ImageView
+        android:id="@+id/droit"
+        android:layout_width="34dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/droit" />
+
+    <ImageView
+        android:id="@+id/gauche"
+        android:layout_width="34dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/gauche" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="384dp"
+        android:layout_height="626dp"
+        android:background="#11243a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609"
+        tools:context=".SettingsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                style="@style/viewParent.headerText"
+                android:text="Settings" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileCircleImageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/nabegh"
+                    app:civ_border_color="@color/imageBorderColor"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/usernameTextView"
+                    style="@style/viewParent.headerText"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/profileCircleImageView"
+                    android:text="Nabegh Anane"
+                    android:textSize="18sp" />
+
+                <TextView
+                    style="@style/viewParent.headerText"
+                    android:layout_below="@id/usernameTextView"
+                    android:layout_toRightOf="@id/profileCircleImageView"
+                    android:text="Found IT Member"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    style="@style/viewParent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_more" />
+
+            </RelativeLayout>
+
+            <Switch
+                android:id="@+id/darkModeSwitch"
+                style="@style/settingsText"
+                android:layout_height="51dp"
+                android:drawableLeft="@drawable/ic_home_black_24dp"
+                android:text="Dark Mode (Disabled)" />
+
+            <TextView
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:text="Profile" />
+
+            <TextView
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:drawableLeft="@drawable/ic_edit_profile"
+                android:text="Edit Profile" />
+
+            <TextView
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_edit_password"
+                android:text="Change Password" />
+
+            <TextView
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:text="Notifications" />
+
+            <Switch
+                style="@style/settingsText"
+                android:layout_height="55dp"
+                android:checked="true"
+                android:drawableLeft="@drawable/ic_notifications"
+                android:text="Notifications" />
+
+            <TextView
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:text="Regional" />
+
+            <TextView
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:drawableLeft="@drawable/ic_languages"
+                android:text="Language" />
+
+            <TextView
+                android:id="@+id/EiaTaa"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:drawableLeft="@drawable/ic_logout"
+                android:text="Logout" />
+
+            <TextView
+                android:id="@+id/textSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

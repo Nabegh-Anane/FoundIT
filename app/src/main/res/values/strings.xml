@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FOUNDIT</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_password_reset">Enter the OTP</string>
+    <string name="signup_login_hint">Already have an account? LOGIN</string>
+    <string name="login_signup_hint">Don\'t have an account? REGISTER</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_creation">Creation</string>
+    <string name="title_menus">Menus</string>
+    <string name="title_setting">Settings</string>
+    <string name="creer_mon_plat">Create my dish</string>
+    <string name="title_activity_maps">MapsActivity</string>
+  <string-array name="items_array">
+        <item>My_Dog_DIANA</item>
+        <item>My_Cat_LOLI</item>
+        <item>MY_car_KEYS</item>
+    </string-array>
+</resources>

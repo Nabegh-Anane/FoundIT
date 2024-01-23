@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="contentTextColor">#00BCD4</color>
+    <color name="miniTitle">#00BCD4</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="contentBodyColor">#FCFCFC</color>
+    <color name="imageBorderColor">#FFFFFF</color>
+</resources>
